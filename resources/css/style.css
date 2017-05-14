@@ -28,10 +28,33 @@ h3 {
   font-size: 23px
   font-weight: bold;
   color: white;
+  background: url("../../resources/images/building.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 footer {
   font-size: 11px;
   color: white;
   background-color: dimgray;
+  text-align: left;
+}
+
+.header {
+  background: url("../../resources/images/building.png") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  color: white;
+}
+
+a:link {
+  color: white;
 }
